@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+	<meta charset="utf-8">
+</head>
+<body>
+     <form action="http://10.7.1.98/taozhuo/form_data.php">
+     	<table border="1" bgcolor="white" height="600px" width="400px">
+     		<tr>
+     			<td>用户名：</td>
+     			<td>
+     				<input type="text" name="name">
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>密码：</td>
+     			<td>
+     				<input type="text" name="password">
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>确认密码：</td>
+     			<td>
+     				<input type="text" name="sure">
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>性别：</td>
+     			<td>
+     				<input type="radio" name="sex" value="woman"/>女
+     				<input type="radio" name="sex" value="men"/>男
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>生日：</td>
+     			<td>
+     				<select name="纪年">
+     					 <option value="阴历">公历</option>
+     					 <option value="阳历">农历</option>
+     				</select>
+     				<select name="year">
+     					 <option value="1">年</option>
+     					 <option value="2">2000</option>
+     					 <option value="3">1999</option>
+     					 <option value="4">1998</option>
+     				</select>
+     				<select name="month">
+     					 <option value="1">月</option>
+     					 <option value="2">12</option>
+     					 <option value="3">11</option>
+     					 <option value="4">10</option>
+     				</select>
+     				<select name="day">
+     					 <option value="1">日</option>
+     					 <option value="2">31</option>
+     					 <option value="3">30</option>
+     				</select>
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>所在地：</td>
+     			<td>
+     				<select name="国家">
+     					<option value="1">中国</option>
+     					<option value="2">台湾</option>
+     					<option value="3">美国</option>
+     					<option value="4">加拿大</option>
+     					<option value="5">法国</option>
+     				</select>
+     				<select name="省份">
+     					<option value="1">河北</option>
+     					<option value="2">上海</option>
+     					<option value="3">北京</option>
+     					<option value="4">天津</option>
+     				</select>
+     				<select name="城市 ">
+     					<option value="1">石家庄</option>
+     				</select>
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>验证码：</td>
+     			<td>
+     				<input type="text" name="验证码：">
+     				<img src="yanzhengma.jpg" alt="验证码：" height="40px" width="130px">
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>证件类型：</td>
+     			<td>
+     				<select name="ID-card">
+     					<option value="1">身份证</option>
+     				</select>
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>证件号：</td>
+     			<td><input type="text" name="name"></td>
+     		</tr>
+     		<tr>
+     			<td>爱好：</td>
+     			<td>
+     				<input type="checkbox" name="like[]" value="音乐">音乐
+     				<input type="checkbox" name="like[]" value="读书" checked="checked">读书
+     				<input type="checkbox" name="like[]" value="跳舞" checked="checked">跳舞
+     				<input type="checkbox" name="like[]" value="下棋">下棋
+     				<input type="checkbox" name="like[]" value="其他">其他
+     			</td>
+     		</tr>
+     		<tr rowspan="3">
+     			<td>说明：</td>
+     			<td>
+     			<textarea rows="10px" cols="30px"></textarea>
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>上传头像：</td>
+     			<td><input type="flie" name="headimg">未选择任何文件</td>
+     		</tr>
+     		<tr>
+     			<td colspan="2" align="center"><input type="submit" name="submit" value="提交"> <input type="submit" name="submit" value="重置"> <input type="submit" name="submit" value="按钮"></td>
+     		</tr>
+     	</table>
+     </form>
+
+</body> 
+</html>
