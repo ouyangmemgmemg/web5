@@ -1,0 +1,18 @@
+body{
+	font:12px,'Arial';
+	line-height:2em;
+}
+a{
+	color:#727272;
+	text-decoration:none;
+}
+.putong{
+	color:#b9f605; font-size:14px;
+}
+.white{
+	color:#fff;
+	}
+.special{
+	color:#fdb306;
+}
+a:hover{text-decoration:underline;}
